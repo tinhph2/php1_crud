@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+    <h3>Quản Lý Sinh Viên</h3>
+    <span id="err"></span> <br>
+    <label for="tenNV">Tên NV</label><br>
+    <input type="text" name="tenNV" id="tenNV"> <br>
+    <label for="luongNV">Lương NV</label><br>
+    <input type="text" name="luongNV" id="luongNV"><br>
+    <label for="heSo">Hệ Số</label><br>
+    <input type="text" name="heSo" id="heSo"> <span id="err_hs"></span><br>
+    <input type="button" name="luu" id="luu" value="Lưu" onclick="luu()">
+    <input type="button" name="lamLai" id="lamLai" value="Làm lại" onclick="nhapLai()">
+    <input type="button" name="hienThi" id="hienThi" value="Hiển Thị" onclick="hienThi()">
+    <div id="ht"></div>
+    <div id="tong"></div>
+</body>
+</html>
